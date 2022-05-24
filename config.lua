@@ -3,7 +3,7 @@ SharedGarages = false   --True == Gang and job garages are shared, false == Gang
 VisuallyDamageCars = true --True == Visually damage cars that go out of the garage depending of body damage, false == Do not visually damage cars (damage is still applied to car values)
 
 Garages = {
-    ["motelgarage"] = {
+    --[[["motelgarage"] = {
         label = "Motel Parking",
         takeVehicle = vector3(273.43, -343.99, 44.91),
         spawnPoint = vector4(270.94, -342.96, 43.97, 161.5),
@@ -323,6 +323,6 @@ Garages = {
         blipNumber = 356,
         type = 'depot',                --public, job, gang, depot
         vehicle = 'sea'                 --car, air, sea
-    },
+    },--]]
 }
 HouseGarages = {}
