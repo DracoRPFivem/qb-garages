@@ -224,7 +224,7 @@ Garages = {
         type = 'gang',                --public, job, gang, depot
         vehicle = 'car',              --car, air, sea
         job = "cartel"
-    },
+    },--]]
     ["police"] = {
         label = "Police",
         takeVehicle = vector3(454.6, -1017.4, 28.4),
@@ -237,7 +237,7 @@ Garages = {
         vehicle = 'car',              --car, air, sea
         job = "police"
     },
-    ["intairport"] = {
+    --[[["intairport"] = {
         label = "Airport Hangar",
         takeVehicle = vector3(-1025.92, -3017.86, 13.95),
         spawnPoint = vector4(-979.2, -2995.51, 13.95, 52.19),
