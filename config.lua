@@ -279,7 +279,7 @@ Garages = {
         blipNumber = 359,
         type = 'depot',                --public, job, gang, depot
         vehicle = 'air'                 --car, air, sea
-    },
+    },--]]
     ["lsymc"] = {
         label = "LSYMC Boathouse",
         takeVehicle = vector3(-794.66, -1510.83, 1.59),
@@ -323,6 +323,6 @@ Garages = {
         blipNumber = 356,
         type = 'depot',                --public, job, gang, depot
         vehicle = 'sea'                 --car, air, sea
-    },--]]
+    },
 }
 HouseGarages = {}
